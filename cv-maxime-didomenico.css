@@ -1,0 +1,138 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin :0;
+    overflow-x: hidden;
+  }
+
+h1 {
+    color: black;
+}
+
+h2 {
+    padding-top: 10px;
+    margin-left: 10%;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    float: left;
+}
+
+.ph2 {
+    margin-top: 15px;
+}
+
+.fh {
+    padding-top: 30%;
+    padding-left: 10%;
+}
+.fe {
+    padding-top: 3%;
+    padding-left: 10%;
+}
+
+.lfe {
+    padding-top: 30%;
+    padding-left: 10%;
+}
+
+.a1 {
+    font-weight: lighter;
+    font-size: 1cm;
+    font-style: inherit;
+    padding-left: 75%;
+}
+.a2 {
+    font-weight: bold;
+    font-size: 1cm;
+}
+
+.container {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:  white;
+}
+
+.container .img1 {
+    position: absolute;
+    
+    /* Center the top-left position of the img */
+    padding-bottom: 19%;
+    top: 33%;
+    left:50%;
+    width: 10%;
+    
+    /* Center relative to the diving line */
+    transform: translate(-50%, -50%);
+}
+
+.right {
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color:  #e5f4ff;
+}
+
+p{
+    color: grey;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.f1 {
+    padding-top: 10px;
+}
+
+hr {
+    margin-left: 10%;
+    margin-top: 5px;
+    width: 50px;
+    border-top: 3px solid black;
+}
+.imgP {
+    width: 5%;
+    float: left;
+    margin-left: 40%;
+    padding-top: 2%;
+}
+
+.imgPp .imgPpp {
+    width: 5%;
+    float: left;
+    padding-top: 2%;
+    margin-top: 1px;
+    margin-left: 5%;
+}
+
+.gl {
+    margin-top: 7px;
+}
+
+.hidden {
+    color: white;
+}
+
+button {
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: #88C1D0;
+    border: none;
+    border-radius: 100px;
+    box-shadow: grey 0 10px 20px -15px;
+}
